@@ -1,0 +1,37 @@
+<svg id="biscoito" class="biscoito" viewBox="0 0 400 320" role="img" aria-label="Biscoito da sorte">
+  <defs>
+    <pattern id="reticula" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2.1" fill="#C25E12"/>
+    </pattern>
+  </defs>
+
+  <polygon class="explosao" points="200,6 225,42 264,14 272,55 321,39 310,79 363,78 335,112 385,125 343,150 385,175 335,188 363,222 310,221 321,261 272,245 264,286 225,258 200,294 175,258 136,286 128,245 79,261 90,221 37,222 65,188 15,175 57,150 15,125 65,112 37,78 90,79 79,39 128,55 136,14 175,42" fill="#FFD400" stroke="#111" stroke-width="5" stroke-linejoin="round" transform="translate(0 10)"/>
+
+  <g class="migalhas">
+    <polygon class="migalha" style="--dx:-120px;--dy:-70px" points="176,150 186,146 184,158"/>
+    <polygon class="migalha" style="--dx:110px;--dy:-90px" points="178,140 190,144 182,154"/>
+    <polygon class="migalha" style="--dx:-80px;--dy:60px" points="172,190 182,188 176,198"/>
+    <polygon class="migalha" style="--dx:140px;--dy:40px" points="178,170 190,172 184,180"/>
+    <polygon class="migalha" style="--dx:-30px;--dy:-120px" points="186,110 194,108 192,118"/>
+    <polygon class="migalha" style="--dx:40px;--dy:90px" points="170,220 180,218 176,228"/>
+  </g>
+
+  <g class="metade esq">
+    <path d="M60 276 C46 208 54 136 78 92 C104 46 160 28 214 40 L214 60 C200 100 188 140 178 170 C150 214 104 250 60 276 Z" fill="#F7B54D"/>
+    <path d="M60 276 C104 250 150 214 178 170 C188 140 200 100 214 60 L214 44 C186 50 156 84 140 122 C120 168 92 226 60 276 Z" fill="#EE8A22"/>
+    <path d="M60 276 C104 250 150 214 178 170 C188 140 200 100 214 60 L214 44 C186 50 156 84 140 122 C120 168 92 226 60 276 Z" fill="url(#reticula)" opacity="0.45"/>
+    <path d="M60 276 C92 226 120 168 140 122 C156 84 186 50 214 44" fill="none" stroke="#111" stroke-width="2.5" opacity="0.55"/>
+    <path d="M68 214 L67 226 M72 180 L71 190 M126 54 C110 60 98 70 90 82" fill="none" stroke="#FFF3D0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M60 276 C46 208 54 136 78 92 C104 46 160 28 214 40 L214 60 C200 100 188 140 178 170 C150 214 104 250 60 276 Z" fill="none" stroke="#111" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+
+  <g class="metade dir">
+    <path d="M358 170 C356 220 330 256 300 276 C266 296 216 304 162 302 L164 312 C220 316 272 306 306 286 C342 262 366 222 366 172 Z" fill="#A9531A" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M214 46 C240 36 268 40 292 54 C326 72 354 102 358 148 C364 198 344 248 306 276 C274 298 220 306 166 302 C164 250 170 200 178 168 C186 130 192 96 196 72 C198 58 204 48 214 46 Z" fill="#F7B54D"/>
+    <path d="M324 66 C352 96 362 136 358 170 C356 220 330 256 300 276 C266 296 216 304 166 302 C206 296 248 282 282 258 C318 232 336 194 336 150 C336 118 332 90 324 66 Z" fill="#EE8A22"/>
+    <path d="M324 66 C352 96 362 136 358 170 C356 220 330 256 300 276 C266 296 216 304 166 302 C206 296 248 282 282 258 C318 232 336 194 336 150 C336 118 332 90 324 66 Z" fill="url(#reticula)" opacity="0.45"/>
+    <path d="M222 50 C236 44 250 43 264 47 M188 128 C191 112 194 98 197 86" fill="none" stroke="#FFF3D0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M182 280 L188 272 M198 286 L206 280" fill="none" stroke="#C25E12" stroke-width="4" stroke-linecap="round"/>
+    <path d="M214 46 C240 36 268 40 292 54 C326 72 354 102 358 148 C364 198 344 248 306 276 C274 298 220 306 166 302 C164 250 170 200 178 168 C186 130 192 96 196 72 C198 58 204 48 214 46 Z" fill="none" stroke="#111" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+</svg>
